@@ -7,6 +7,7 @@ body {
 }
 
 main {
+    width: 60%;
     background: linear-gradient(180deg, rgba(24, 3, 38, 1) 0%, rgba(103, 15, 135, 1) 100%);
     position: relative;
 
@@ -41,26 +42,6 @@ main {
     }
 }
 
-@media (width<768px) {
-
-    main {
-
-        .fromSelect,
-        .toSelect {
-            width: 90% !important;
-            font-size: 1em;
-        }
-
-        .btn-info {
-            width: 100% !important;
-        }
-
-        h2 {
-            font-size: 1em;
-        }
-    }
-}
-
 @media (width<920px) {
     main {
         .fromImg {
@@ -74,7 +55,16 @@ main {
 }
 
 @media (width<768px) {
+
     main {
+        width: 80% !important;
+
+        .fromSelect,
+        .toSelect {
+            width: 90% !important;
+            font-size: 1em;
+        }
+
         .fromImg {
             top: 41.5%;
             left: 12.5%;
@@ -84,11 +74,25 @@ main {
             top: 57.5%;
             left: 12.5%;
         }
+
+        .btn-info {
+            width: 100% !important;
+        }
+
+        h2 {
+            font-size: 1em;
+        }
     }
 }
 
 @media (width<550px) {
     main {
+
+        .fromSelect,
+        .toSelect {
+            width: 95% !important;
+        }
+
         .fromImg {
             top: 41.5%;
             left: 14.5%;
