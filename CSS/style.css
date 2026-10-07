@@ -66,17 +66,17 @@ main {
         }
 
         .fromImg {
-            top: 41.5%;
-            left: 12.5%;
+            top: 42%;
+            left: 10.5%;
         }
 
         .toImg {
             top: 57.5%;
-            left: 12.5%;
+            left: 10.5%;
         }
 
         .btn-info {
-            width: 100% !important;
+            width: 60% !important;
         }
 
         h2 {
@@ -95,12 +95,12 @@ main {
 
         .fromImg {
             top: 41.5%;
-            left: 14.5%;
+            left: 10.5%;
         }
 
         .toImg {
             top: 57.5%;
-            left: 14.5%;
+            left: 10.5%;
         }
     }
 }
@@ -109,12 +109,12 @@ main {
     main {
         .fromImg {
             top: 41.5%;
-            left: 17.5%;
+            left: 12.5%;
         }
 
         .toImg {
             top: 57.5%;
-            left: 17.5%;
+            left: 12.5%;
         }
     }
 }
