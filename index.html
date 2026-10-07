@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currency Exchanger</title>
+
+    <link rel="stylesheet" href="CSS/font-awesome.css">
+    <link rel="stylesheet" href="CSS/modified-bootstrap.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <nav class="bg-black p-3">
+        <h1 class="text-white-50">Currency Converter</h1>
+    </nav>
+
+    <main class="rounded-3 w-60 mx-auto mt-5 p-4 d-flex flex-column align-items-center row-gap-3">
+        <h3 class="align-self-start text-info">Amount</h3>
+        <div class="input-div w-100 pb-1 d-flex flex-row justify-content-between align-items-center">
+            <input type="text" placeholder="1 By Default" class="outline-0 border-0 w-90 p-2 fs-4 text-light">
+            <i class="fa-solid fa-arrow-right-arrow-left arrow-logo w-10 fs-2 switch" style="color: #0466e7"></i>
+        </div>
+        <select class="fromSelect w-70 bg-black text-light p-2 ps-5"></select>
+        <select class="toSelect w-70 bg-black text-light p-2 ps-5"></select>
+        <img src="https://flagsapi.com/EG/shiny/32.png" class="fromImg">
+        <img src="https://flagsapi.com/EG/shiny/32.png" class="toImg">
+        <button class="btn btn-info w-40">Convert</button>
+        <h2 class="text-light text-center fw-bold">1 EGP = 1 EGP</h2>
+    </main>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
